@@ -8,4 +8,9 @@ const server = app.listen(port, () => {
   console.log(`PORT : ${port}`)
 })
 
+app.use("/",(req,res,next)=>{
+    res.json({message:"server OK"})
+    next()
+})
+
 Gun({ web: server });
