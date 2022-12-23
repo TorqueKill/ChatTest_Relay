@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "gun": "^0.2020.1238"
+  },
+  "name": "chatapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TorqueKill/ChatApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TorqueKill/ChatApp/issues"
+  },
+  "homepage": "https://github.com/TorqueKill/ChatApp#readme",
+  "description": ""
+}
