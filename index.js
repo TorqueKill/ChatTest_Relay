@@ -11,4 +11,4 @@ const server = app.listen(port, () => {
 })
 
 
-Gun({ file:'/tmp/data.json', web: server, localStorage: true });
+Gun({ file:'data', web: server});
